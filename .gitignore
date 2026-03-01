@@ -36,6 +36,10 @@ Flutter/flutter_export_environment.sh
 **/*sync/
 Icon?
 .DS_Store
+# Firebase (Chaves de conexão que NÃO podem ir para o Git)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
 
 # IDEs
 # -----------------------
