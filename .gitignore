@@ -1,0 +1,44 @@
+# Flutter/Dart
+# -----------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# FVM (Importante para o seu caso)
+# -----------------------
+.fvm/flutter_sdk
+# Se você quiser que outros saibam que você usa FVM, NÃO ignore o .fvm/fvm_config.json
+
+# Android
+# -----------------------
+.gradle/
+local.properties
+*.kwks
+*.keystore
+*.jks
+project.properties
+Flutter/Generated.xcconfig
+Flutter/flutter_export_environment.sh
+
+# iOS
+# -----------------------
+.generated/
+*.log
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/*sync/
+Icon?
+.DS_Store
+
+# IDEs
+# -----------------------
+.idea/
+.vscode/
+*.iml
